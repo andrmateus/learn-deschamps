@@ -1,4 +1,4 @@
-import {useState} from 'react';
+import { useState } from 'react';
 
 function Home(){
     return (
@@ -9,15 +9,15 @@ function Home(){
     )
 }
 
-const [Contador,setContador] = useState(1);
 function Contador() {
+    const [contador,setContador] = useState(1);
 
     function adicionaContador() {
-        setContador(Contador + 1);
+        setContador(contador + 1);
     }
     return (
         <div>
-            <div>{Contador}</div>
+            <div>{contador}</div>
             <button onClick={adicionaContador}>Adicionar</button>
         </div>
     )
