@@ -1,0 +1,25 @@
+{
+  "name": "learn-deschamps",
+  "version": "1.0.0",
+  "description": "learn program sites modern",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andrmateus/learn-deschamps.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andrmateus/learn-deschamps/issues"
+  },
+  "homepage": "https://github.com/andrmateus/learn-deschamps#readme",
+  "dependencies": {
+    "next": "^10.0.8",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  }
+}
